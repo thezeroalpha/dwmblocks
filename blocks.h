@@ -14,7 +14,7 @@ static const Block blocks[] = {
   // {"", "dwmblock-kbselect", 0, 11},
   {"", "dwmblock-touchpad", 0, 15},
   {"", "dwmblock-startbutton", 60, 13},
-  {"", "date '+%b %d (%a) %I:%M%p'", 1, 4},
+  {"", "dwmblock-date", 1, 4},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
