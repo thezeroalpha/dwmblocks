@@ -1,6 +1,8 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
   /*Icon*/ /*Command*/ /*Update Interval*/ /*Update Signal*/
+  {"", "dwmblock-tmuxlist", 10, 17},
+  {"", "dwmblock-taskspooler", 10, 16},
   {"", "dwmblock-emacs-org-clock", 10, 7},
   {"", "dwmblock-battery", 5, 1},
   // {"", "dwmblock-doppler", 0, 10},
